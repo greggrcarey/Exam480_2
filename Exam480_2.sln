@@ -18,9 +18,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS", "CSS", "{9A7CC258-1AC
 		Styles.css = Styles.css
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{16BDB330-B215-4CEA-8737-96DF691D1498}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Image", "Image", "{7006B378-2519-48E2-A6C6-0A18FFED0D9C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Users\gcarey\Desktop\Tree.png = ..\..\Users\gcarey\Desktop\Tree.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7006B378-2519-48E2-A6C6-0A18FFED0D9C} = {16BDB330-B215-4CEA-8737-96DF691D1498}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {42C6B7E8-54E3-445F-9C68-0D8FF477777E}
