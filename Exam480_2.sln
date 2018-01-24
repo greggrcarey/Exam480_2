@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML", "HTML", "{E04BCC34-1CBC-48D0-807E-B2D5B29E6CFF}"
 	ProjectSection(SolutionItems) = preProject
 		HTMLPage1.html = HTMLPage1.html
+		HTMLPage2.html = HTMLPage2.html
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{15C46100-F573-4C70-8371-30E29F357302}"
