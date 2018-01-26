@@ -4,40 +4,70 @@
 <head>
     <meta charset="utf-8" />
     <title>Exam 480 Stuff</title>
+    <script src="jquery-3.3.1.min.js"></script>
     <script src="Script1.js"></script>
     <link rel="stylesheet" href="Styles.css" />
 </head>
 <body>
-<div class="container">
-    <p>Where does this go?</p>
-    
-    <h2>This is Grid Town</h2>
-    <div class="grid-container">
-        <div class="grid-item">A</div>
-        <div class="grid-item">B</div>
-        <div class="grid-item">C</div>
-        <div class="grid-item">D</div>
-        <div class="grid-item">E</div>
-        <div class="grid-item">F</div>
-    </div>
-
-    
-    <h2>This is flexbox town</h2>
-    <ul class="flex-container">
-        <li class="flex-item one">1</li>
-        <li class="flex-item flex-grow two">2</li>
-        <li class="flex-item three">3</li>
-        <li class="flex-item flex-grow four">4</li>
-        <li class="flex-item five">5</li>
-        <li class="flex-item six">6</li>
-        <!-- <li class="flex-item seven">7</li>
-        <li class="flex-item eight">8</li>
-    <li class="flex-item nine">9</li>
-    <li class="flex-item ten">10</li>
-    <li class="flex-item eleven">11</li>-->
-    </ul>
+    <div class="container">
+        <p>Where does this go?</p>
+        <section id="DOMchanging">
+            <hgroup>
+                <h1>This is where the DOM manipuatlion happens</h1>
+                <h2>DOM maniuplation happens here</h2>
+            </hgroup>
+            <p>Lorem Ipsum etc.</p>
 
 
-</div>    
+        </section>
+        
+        <div id="canvasSvg">
+            <canvas id="canvas1"></canvas>
+
+        </div>
+
+
+        <div id="audioVideo">
+        <h2>This is video and audio town</h2>
+
+        <video width="250" height="250" controls autoplay loop>
+            <source src="boring.mp4" type="video/mp4">
+            Video is not supported
+        </video>
+
+        <!--<audio controls preload="auto">
+        <source src="boringAudio.mp3" type="audio/mp3"/>
+    </audio>-->
+            
+        </div>
+
+            <h2>This is Grid Town</h2>
+        <div class="grid-container">
+            <div class="grid-item a">A</div>
+            <div class="grid-item a">B</div>
+            <div class="grid-item c">C</div>
+            <div class="grid-item d">D</div>
+            <div class="grid-item e">E</div>
+            <div class="grid-item e">F</div>
+        </div>
+
+
+        <h2>This is flexbox town</h2>
+        <ul class="flex-container">
+            <li class="flex-item one">1</li>
+            <li class="flex-item flex-grow two">2</li>
+            <li class="flex-item three">3</li>
+            <li class="flex-item flex-grow four">4</li>
+            <li class="flex-item five">5</li>
+            <li class="flex-item six">6</li>
+            <!-- <li class="flex-item seven">7</li>
+            <li class="flex-item eight">8</li>
+        <li class="flex-item nine">9</li>
+        <li class="flex-item ten">10</li>
+        <li class="flex-item eleven">11</li>-->
+        </ul>
+
+
+    </div>    
 </body>
 </html>

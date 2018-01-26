@@ -35,10 +35,21 @@ h1 {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 100px 100px 100px;
-  
+    grid-template-columns: 1fr 50px 1fr 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    justify-items: center;
+    align-items: center;
 
 }
+
+.c {
+    grid-column-start: 2;
+    grid-column-end: four;
+    grid-row-start: row1-start;
+    grid-row-end: 3;
+}
+
 
 .grid-item {
     background: seagreen;
@@ -54,6 +65,19 @@ h1 {
     text-align: center;
 }
 
-.flex-grow {
-    /*flex-grow: 2;*/
+svg.draw {
+    width: 300px;
+    height: 300px;
+    border: #666 1px solid;
 }
+.black-stroke {
+    stroke: black;
+    stroke-width: 2;
+}
+.red-fill {
+    fill: red;
+}
+.blue-fill {
+    fill:blue;
+}
+

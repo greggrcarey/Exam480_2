@@ -7,6 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML", "HTML", "{E04BCC34-1
 	ProjectSection(SolutionItems) = preProject
 		HTMLPage1.html = HTMLPage1.html
 		HTMLPage2.html = HTMLPage2.html
+		HTMLPage3.html = HTMLPage3.html
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{15C46100-F573-4C70-8371-30E29F357302}"
@@ -20,6 +21,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS", "CSS", "{9A7CC258-1AC
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{16BDB330-B215-4CEA-8737-96DF691D1498}"
+	ProjectSection(SolutionItems) = preProject
+		Content\video\boring.mp4 = Content\video\boring.mp4
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Image", "Image", "{7006B378-2519-48E2-A6C6-0A18FFED0D9C}"
 	ProjectSection(SolutionItems) = preProject
@@ -28,6 +32,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Image", "Image", "{7006B378
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E940EA26-F23F-4B87-BB70-1FAC3D56E041}"
 	ProjectSection(SolutionItems) = preProject
+		Content\video\boring.mp4 = Content\video\boring.mp4
+		jquery-3.3.1.min.js = jquery-3.3.1.min.js
 		Content\Image\Tree.png = Content\Image\Tree.png
 	EndProjectSection
 EndProject
